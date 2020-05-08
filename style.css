@@ -106,11 +106,39 @@ header {
     text-align: center;
 }
 
+.header-watch a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-watch a:hover {
+    text-decoration: underline;
+}
+
 
 /* ---- Blog Grid ---- */
 
-.blog-grid {
+.blog-links {
     display: grid;
-    grid-template-columns: 4;
-    width: 100;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(4, 1fr);
+    height: 200px;
+}
+
+.iphone-5c {
+    background-image: url("./img/promo_iphone5c.jpg");
+}
+
+.iphone-5s {
+    background-image: url("./img/promo_iphone5s.jpg");
+}
+
+.years {
+    background-image: url("./img/promo_30_years.jpg");
+}
+
+.supplier {
+    background-image: url("./img/promo_supplier_responsibility.jpg");
 }
