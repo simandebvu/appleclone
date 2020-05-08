@@ -1,201 +1,199 @@
 /* ---- CSS RESET ---- */
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Lucida Sans Unicode", Helvetica;
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 body {
-    height: 100%;
+  height: 100%;
 }
 
 .container {
-    font-family: "Lucida Grande", "Lucida Sans Unicode";
-    background: url("./img/your_verse_hero.jpg") no-repeat fixed 50% 100%;
-    max-width: 1440px;
-    margin: 0 auto;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  background: url("./img/your_verse_hero.jpg") no-repeat fixed 50% 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .material-icons {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .nav-bar {
-    width: 60%;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    margin: auto;
+  width: 60%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin: auto;
 }
 
 .nav-bar ul {
-    display: flex;
-    list-style: none;
-    height: 30px;
-    align-items: center;
-    justify-content: space-around;
-    border: none;
-    border-radius: 4px;
-    padding: 1px 3px;
-    background-color: #707070;
-}
-
-.nav-bar ul a {
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-}
-
-.nav-bar ul li {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(#7c7c7c 45%, #636363 45%, #a0a0a0 150%);
-}
-
-.nav-bar ul li:hover {
-    background: radial-gradient(ellipse, #222, #5e5e5e);
-}
-
-.nav-logo {
-    font-size: 1.3rem;
-    padding-top: 6px;
-}
-
-.search-bar {
-    position: relative;
-}
-
-.search-bar .search-icon {
-    color: #fff;
-    font-size: 1rem;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-}
-
-.search-bar.search-icon {
-    color: #fff;
-    font-size: 1rem;
-    position: absolute;
-    top: 5px;
-    left: 5px;
-}
-
-.nav-search {
-    border-radius: 12px;
-    border: 1px solid #555;
-    background-color: rgba(0, 0, 0, 0);
-    color: #fff;
-    padding-left: 22px;
-    width: 100px;
-    transition: ease-in-out, width 0.35s ease-in-out;
-}
-
-.nav-search:focus {
-    width: 120px;
-    background-color: #777;
-    color: black;
-}
-
-.main-header {
-    height: 430px;
-}
-
-.header-content {
-    color: #fff;
-    margin: auto;
-    width: 80%;
-    text-align: center;
+  display: flex;
+  list-style: none;
+  height: 30px;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  border-radius: 4px;
+  padding: 1px 3px;
+  background-color: #707070;
 }
 
 .header-watch a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-link-copyright a {
+  padding-top: 5px;
+  margin: 0 10px;
+}
+
+.footer-inline-link a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.nav-bar ul a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #08c;
+}
+
+.nav-bar ul li {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#7c7c7c 45%, #636363 45%, #a0a0a0 150%);
+}
+
+.nav-bar ul li:hover {
+  background: radial-gradient(ellipse, #222, #5e5e5e);
+}
+
+.nav-logo {
+  font-size: 1.3rem;
+  padding-top: 6px;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar .search-icon {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.search-bar.search-icon {
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.nav-search {
+  border-radius: 12px;
+  border: 1px solid #555;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  padding-left: 22px;
+  width: 100px;
+  transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+.nav-search:focus {
+  width: 120px;
+  background-color: #777;
+  color: black;
+}
+
+.main-header {
+  height: 430px;
+}
+
+.header-content {
+  color: #fff;
+  margin: auto;
+  width: 80%;
+  text-align: center;
 }
 
 .header-watch a:hover {
-    text-decoration: underline;
-}
-
-
-/* ---- Blog Grid ---- */
-
-.blog-links {
-    display: grid;
-    margin: 0 auto;
-    background-size: cover;
-    background-position: center;
-    grid-template-columns: repeat(4, 1fr);
-    height: 200px;
-}
-
-.iphone-5c {
-    background-image: url("./img/promo_iphone5c.jpg");
-}
-
-.iphone-5s {
-    background-image: url("./img/promo_iphone5s.jpg");
-}
-
-.years {
-    background-image: url("./img/promo_30_years.jpg");
-}
-
-.supplier {
-    background-image: url("./img/promo_supplier_responsibility.jpg");
-}
-
-
-/* ----- Footer ----- */
-
-.footer {
-    display: grid;
-    font-size: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 5px;
-    width: 80%;
-    padding: 10px;
-    margin: 15px auto;
-}
-
-.footer-shop {
-    grid-row: 1;
-    grid-column: 1;
-}
-
-.footer-links {
-    grid-row: 1;
-    grid-column: 2;
-}
-
-.footer-links ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-}
-
-.footer-inline-link a,
-.footer-links ul li a {
-    text-decoration: none;
-    color: #08c;
-}
-
-.footer-icon {
-    font-size: 12px;
+  text-decoration: underline;
 }
 
 .footer-inline-link a:hover,
 .footer-links ul li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+.blog-links {
+  display: grid;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  grid-template-columns: repeat(4, 1fr);
+  height: 200px;
+}
+
+.iphone-5c {
+  background-image: url("./img/promo_iphone5c.jpg");
+}
+
+.iphone-5s {
+  background-image: url("./img/promo_iphone5s.jpg");
+}
+
+.years {
+  background-image: url("./img/promo_30_years.jpg");
+}
+
+.supplier {
+  background-image: url("./img/promo_supplier_responsibility.jpg");
+}
+
+.footer {
+  display: grid;
+  font-size: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+  width: 80%;
+  padding: 10px;
+  margin: 15px auto;
+}
+
+.footer-shop {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.footer-links {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.footer-links ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.footer-icon {
+  font-size: 12px;
 }
 
 .footer-copyright {
-    grid-column: 1;
-    display: flex;
-}
-
-.footer-link-copyright a {
-    padding-top: 5px;
-    margin: 0 10px;
+  grid-column: 1;
+  display: flex;
 }
