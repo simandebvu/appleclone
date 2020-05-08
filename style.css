@@ -1,0 +1,116 @@
+/* ---- CSS RESET ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    font-family: "Lucida Grande", "Lucida Sans Unicode";
+    background: url("./img/your_verse_hero.jpg") no-repeat fixed 50% 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* ---- Header ---- */
+
+
+/* 
+header {
+    height: 600px;
+} */
+
+.nav-bar {
+    width: 60%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: auto;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #707070;
+}
+
+.nav-bar ul a {
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    background: linear-gradient(#7c7c7c 45%, #636363 45%, #a0a0a0 150%);
+}
+
+.nav-logo {
+    font-size: 1.3rem;
+    padding-top: 6px;
+}
+
+.search-bar {
+    position: relative;
+}
+
+.search-bar .search-icon {
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.search-bar.search-icon {
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.nav-search {
+    border-radius: 12px;
+    border: 1px solid #555;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding-left: 22px;
+    width: 100px;
+    transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+.nav-search:focus {
+    width: 120px;
+    background-color: #777;
+    color: black;
+}
+
+.main-header {
+    height: 430px;
+}
+
+.header-content {
+    color: #fff;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+
+/* ---- Blog Grid ---- */
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: 4;
+    width: 100;
+}
