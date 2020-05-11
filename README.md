@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/simandebvu/appleclone/develop/index.html)
+[Live Demo Link](https://raw.githack.com/simandebvu/appleclone/release-0.1.0/index.html)
 
 
 👤 **Shingirayi Mandebvu**
