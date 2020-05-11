@@ -12,9 +12,6 @@ body {
 
 .container {
   font-family: "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  background: url("./img/your_verse_hero.jpg") no-repeat fixed 50% 100%;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .material-icons {
@@ -22,8 +19,8 @@ body {
 }
 
 .nav-bar {
-  width: 60%;
-  padding-top: 45px;
+  width: 90%;
+  padding-top: 100px;
   padding-bottom: 45px;
   margin: auto;
 }
@@ -31,7 +28,7 @@ body {
 .nav-bar ul {
   display: flex;
   list-style: none;
-  height: 30px;
+  height: 40px;
   align-items: center;
   justify-content: space-around;
   border: none;
@@ -67,6 +64,10 @@ body {
 }
 
 .nav-bar ul li {
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  justify-content: center;
   width: 100%;
   height: 100%;
   background: linear-gradient(#7c7c7c 45%, #636363 45%, #a0a0a0 150%);
@@ -89,8 +90,8 @@ body {
   color: #fff;
   font-size: 1rem;
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 11px;
+  left: 15px;
 }
 
 .search-bar.search-icon {
@@ -105,8 +106,9 @@ body {
   border-radius: 12px;
   border: 1px solid #555;
   background-color: rgba(0, 0, 0, 0);
-  color: #fff;
   padding-left: 22px;
+  color: #fff;
+  margin: auto 10px;
   width: 100px;
   transition: ease-in-out, width 0.35s ease-in-out;
 }
@@ -118,13 +120,23 @@ body {
 }
 
 .main-header {
-  height: 430px;
+  background-image: url("./img/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  flex-basis: 100%;
+  background-size: cover;
+  background-position: 50% 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .header-content {
   color: #fff;
   margin: auto;
   width: 80%;
+  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -140,10 +152,10 @@ body {
 .blog-links {
   display: grid;
   margin: 0 auto;
+  height: 200px;
   background-size: cover;
   background-position: center;
   grid-template-columns: repeat(4, 1fr);
-  height: 200px;
 }
 
 .iphone-5c {
@@ -170,7 +182,7 @@ body {
   gap: 5px;
   width: 80%;
   padding: 10px;
-  margin: 15px auto;
+  margin: auto;
 }
 
 .footer-shop {
